@@ -1,0 +1,38 @@
+1. HOW TO INSTALL PYTHON?
+Go to Python’s main website (https://www.python.org/downloads/)
+Download the installer and make sure to add it to the path
+Environmental variables path (C:\Users\<user>\AppData\Local\Python\bin)
+
+2. INSTALL VS CODE
+Download the “Python” extension in VS Code 
+Download the “Pylance” & “Jupyter” extensions in VS Code
+
+3. Now in VS Code 
+Open settings
+Search for – “Python Terminal Execute In File Dir”
+(This will lead to -VS Code executing a python file from the file directory instead of our workspace root)
+Check box to enable it
+
+4. Make a Main folder “python-zero-to-hero” and Open VS CODE in that folder
+
+5. Create a workspace in VS Code
+
+6. Create a Virtual Environment (so that different projects can use different versions of python tools) 
+Method 1(VS CODE) : CTRL/CMD + SHIFT + P -> "Python: Create Environment..."
+Method 2(TERMINAL) : 1.	Open terminal in VS Code (View -> Terminal)	2.	Make sure you are in your project Folder	3.	Run this command (python -m venv .venv)
+
+
+7. How to install Packages?
+•	pip install numpy pandas requests -> (Sometimes this is blocked by Windows, so follow next)
+•	python -m pip install numpy pandas requests
+
+(use import statements to import these packages to your code)
+
+8. INTERACTIVE PYTHON and How to setup:
+•	python -m pip install ipykernel  (This works with Jupyter as well)
+SETUP:
+CTRL/CMD + ,(comma)  OR [File > Preferences > Settings]
+Search "execute selection"
+Find this setting : "Jupyter>Interactive Window>Text Editor: Execute Selection" -> enable the checkbox
+NOW,
+Write a .py code -> Select a portion of code and  press (SHIFT + ENTER) -> runs the selected portion
