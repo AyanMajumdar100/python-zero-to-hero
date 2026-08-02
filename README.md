@@ -1,4 +1,4 @@
-# 🐍 Python Zero to Hero: AI Engineering Roadmap
+# Python Zero to Hero: AI Engineering Roadmap
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -76,7 +76,7 @@ A comprehensive, end-to-end repository tracking my journey from core Python fund
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/AyanMajumdar100/python-zero-to-hero.git](https://github.com/AyanMajumdar100/python-zero-to-hero.git)
+git clone https://github.com/AyanMajumdar100/python-zero-to-hero.git
 cd python-zero-to-hero
 
 ```
@@ -112,5 +112,3 @@ python phase_1_foundations/01_two_pointers.py
 ---
 
 *Built with ❤️ for mastering Python, DSA, and modern AI Systems.*
-
-```
