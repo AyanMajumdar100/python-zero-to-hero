@@ -1,0 +1,2 @@
+Python is useful.
+RAG uses Python.
